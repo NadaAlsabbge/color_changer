@@ -13,7 +13,8 @@ body {
 
 .container {
     background: burlywood;
-    min-width: 30%;
+    width: 94%;
+    max-width: 400px;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -25,8 +26,7 @@ body {
 .content {
     background: rgb(59, 58, 58);
     width: 80%;
-    max-width: 400px;
-    min-height: 25vh;
+    height: 25vh;
 }
 
 .button {
